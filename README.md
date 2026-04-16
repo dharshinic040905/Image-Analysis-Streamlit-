@@ -29,14 +29,6 @@ An interactive **AI-powered Image Question Answering Web App** built using **Str
 4. The Gemini model processes both image and text
 5. AI generates a relevant answer instantly
 
-## 📂 Project Structure
-
-Image-QA-Gemini/
-│── app.py
-│── README.md
-
-## ▶️ Run the Project Locally
-
 ### 1️⃣ Install Dependencies
 
 ```bash
@@ -56,9 +48,6 @@ Replace the API key in your code:
 ```python
 genai.configure(api_key="YOUR_API_KEY")
 ```
-
-> ⚠️ **Important:** Never upload your real API key to GitHub. Use environment variables for security.
-
 ## 💡 Use Cases
 
 * 📚 Educational assistance
@@ -66,9 +55,6 @@ genai.configure(api_key="YOUR_API_KEY")
 * ♿ Accessibility tools
 * 🧠 AI-based visual understanding
 
-## 📸 Demo Preview
-
-*(Add a screenshot of your app here for better presentation)*
 
 ## 🌟 Future Enhancements
 
@@ -80,7 +66,5 @@ genai.configure(api_key="YOUR_API_KEY")
 ## 🙌 Acknowledgment
 
 Built using **Google Generative AI (Gemini)** and **Streamlit** for rapid AI application development.
-
-
 
 ⭐ If you like this project, don’t forget to **star the repo!**
